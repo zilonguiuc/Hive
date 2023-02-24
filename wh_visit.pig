@@ -1,4 +1,4 @@
---wh_house.pig: transforms visits.txt for a Hive table
+--wh_visit.pig: transforms visits.txt for a Hive table
 
 visits = LOAD 'whitehouse/visits.txt' USING PigStorage(',');
 
