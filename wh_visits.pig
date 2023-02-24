@@ -1,6 +1,6 @@
 --wh_visit.pig: transforms visits.txt for a Hive table
 
-visits = LOAD 'data/visits.txt' USING PigStorage(',');
+visits = LOAD 'data/wh_visits.txt' USING PigStorage(',');
 
 potus = FILTER visits BY $19 MATCHES 'POTUS';
 
