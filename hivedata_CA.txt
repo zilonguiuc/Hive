@@ -1,4 +1,4 @@
-101	John	CA
-102	Barry	CA
-103	George	CA
-104	Ulf	CA
+101	John
+102	Barry
+103	George
+104	Ulf
